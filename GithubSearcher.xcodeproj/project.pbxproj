@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D1BB91B02267A9050042B2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB91AF2267A9050042B2DD /* AppDelegate.swift */; };
-		D1BB91B22267A9050042B2DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB91B12267A9050042B2DD /* ViewController.swift */; };
-		D1BB91B52267A9050042B2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BB91B32267A9050042B2DD /* Main.storyboard */; };
 		D1BB91B82267A9050042B2DD /* GithubSearcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BB91B62267A9050042B2DD /* GithubSearcher.xcdatamodeld */; };
 		D1BB91BA2267A9070042B2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BB91B92267A9070042B2DD /* Assets.xcassets */; };
 		D1BB91BD2267A9070042B2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BB91BB2267A9070042B2DD /* LaunchScreen.storyboard */; };
 		D1BB91C82267A9070042B2DD /* GithubSearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB91C72267A9070042B2DD /* GithubSearcherTests.swift */; };
 		D1BB91D32267A9070042B2DD /* GithubSearcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB91D22267A9070042B2DD /* GithubSearcherUITests.swift */; };
+		D1DF86F32267BD82009E99F3 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF86F12267BD82009E99F3 /* FirstVC.swift */; };
+		D1DF86F42267BD82009E99F3 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF86F22267BD82009E99F3 /* FirstVC.xib */; };
+		D1DF86F62267BE23009E99F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF86F52267BE23009E99F3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		D1BB91AC2267A9050042B2DD /* GithubSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BB91AF2267A9050042B2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1BB91B12267A9050042B2DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1BB91B42267A9050042B2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1BB91B72267A9050042B2DD /* GithubSearcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubSearcher.xcdatamodel; sourceTree = "<group>"; };
 		D1BB91B92267A9070042B2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1BB91BC2267A9070042B2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		D1BB91CE2267A9070042B2DD /* GithubSearcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubSearcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BB91D22267A9070042B2DD /* GithubSearcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearcherUITests.swift; sourceTree = "<group>"; };
 		D1BB91D42267A9070042B2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DF86F12267BD82009E99F3 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		D1DF86F22267BD82009E99F3 /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		D1DF86F52267BE23009E99F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				D1BB91AF2267A9050042B2DD /* AppDelegate.swift */,
-				D1BB91B12267A9050042B2DD /* ViewController.swift */,
-				D1BB91B32267A9050042B2DD /* Main.storyboard */,
+				D1DF86F12267BD82009E99F3 /* FirstVC.swift */,
+				D1DF86F22267BD82009E99F3 /* FirstVC.xib */,
 				D1BB91B92267A9070042B2DD /* Assets.xcassets */,
 				D1BB91BB2267A9070042B2DD /* LaunchScreen.storyboard */,
 				D1BB91BE2267A9070042B2DD /* Info.plist */,
+				D1DF86F52267BE23009E99F3 /* main.swift */,
 				D1BB91B62267A9050042B2DD /* GithubSearcher.xcdatamodeld */,
 			);
 			path = GithubSearcher;
@@ -234,7 +237,7 @@
 			files = (
 				D1BB91BD2267A9070042B2DD /* LaunchScreen.storyboard in Resources */,
 				D1BB91BA2267A9070042B2DD /* Assets.xcassets in Resources */,
-				D1BB91B52267A9050042B2DD /* Main.storyboard in Resources */,
+				D1DF86F42267BD82009E99F3 /* FirstVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BB91B22267A9050042B2DD /* ViewController.swift in Sources */,
 				D1BB91B02267A9050042B2DD /* AppDelegate.swift in Sources */,
+				D1DF86F32267BD82009E99F3 /* FirstVC.swift in Sources */,
+				D1DF86F62267BE23009E99F3 /* main.swift in Sources */,
 				D1BB91B82267A9050042B2DD /* GithubSearcher.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D1BB91B32267A9050042B2DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1BB91B42267A9050042B2DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D1BB91BB2267A9070042B2DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

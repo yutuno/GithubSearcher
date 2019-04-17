@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstVC.swift
 //  GithubSearcher
 //
 //  Created by yuto on 2019/04/18.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class FirstVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = .red
     }
-
-
 }
-
