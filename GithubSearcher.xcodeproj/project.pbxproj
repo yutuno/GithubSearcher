@@ -18,6 +18,11 @@
 		D1DF86F62267BE23009E99F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF86F52267BE23009E99F3 /* main.swift */; };
 		D1DF86FB2267BFB4009E99F3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF86F92267BFB4009E99F3 /* UserCell.swift */; };
 		D1DF86FC2267BFB4009E99F3 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF86FA2267BFB4009E99F3 /* UserCell.xib */; };
+		D1DF86FE2267F103009E99F3 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF86FD2267F103009E99F3 /* Session.swift */; };
+		D1DF87032267F1F8009E99F3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF87022267F1F8009E99F3 /* Result.swift */; };
+		D1DF87052267F25B009E99F3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF87042267F25B009E99F3 /* Request.swift */; };
+		D1DF87082267F2AB009E99F3 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF87072267F2AB009E99F3 /* AccessToken.swift */; };
+		D1DF870A2267F31B009E99F3 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF87092267F31B009E99F3 /* Pagination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		D1DF86F52267BE23009E99F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D1DF86F92267BFB4009E99F3 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		D1DF86FA2267BFB4009E99F3 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		D1DF86FD2267F103009E99F3 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		D1DF87022267F1F8009E99F3 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		D1DF87042267F25B009E99F3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D1DF87072267F2AB009E99F3 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		D1DF87092267F31B009E99F3 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,8 @@
 				D1BB91BE2267A9070042B2DD /* Info.plist */,
 				D1DF86F52267BE23009E99F3 /* main.swift */,
 				D1BB91B62267A9050042B2DD /* GithubSearcher.xcdatamodeld */,
+				D1DF87062267F293009E99F3 /* Entity */,
+				D1DF86FF2267F1A1009E99F3 /* API */,
 			);
 			path = GithubSearcher;
 			sourceTree = "<group>";
@@ -135,6 +147,41 @@
 				D1BB91D42267A9070042B2DD /* Info.plist */,
 			);
 			path = GithubSearcherUITests;
+			sourceTree = "<group>";
+		};
+		D1DF86FF2267F1A1009E99F3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF86FD2267F103009E99F3 /* Session.swift */,
+				D1DF87002267F1C6009E99F3 /* Response */,
+				D1DF87012267F1CF009E99F3 /* Request */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D1DF87002267F1C6009E99F3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF87022267F1F8009E99F3 /* Result.swift */,
+				D1DF87092267F31B009E99F3 /* Pagination.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D1DF87012267F1CF009E99F3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF87042267F25B009E99F3 /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D1DF87062267F293009E99F3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF87072267F2AB009E99F3 /* AccessToken.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +317,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BB91B02267A9050042B2DD /* AppDelegate.swift in Sources */,
+				D1DF87052267F25B009E99F3 /* Request.swift in Sources */,
+				D1DF87082267F2AB009E99F3 /* AccessToken.swift in Sources */,
 				D1DF86F32267BD82009E99F3 /* FirstVC.swift in Sources */,
+				D1DF86FE2267F103009E99F3 /* Session.swift in Sources */,
 				D1DF86F62267BE23009E99F3 /* main.swift in Sources */,
+				D1DF87032267F1F8009E99F3 /* Result.swift in Sources */,
+				D1DF870A2267F31B009E99F3 /* Pagination.swift in Sources */,
 				D1DF86FB2267BFB4009E99F3 /* UserCell.swift in Sources */,
 				D1BB91B82267A9050042B2DD /* GithubSearcher.xcdatamodeld in Sources */,
 			);
