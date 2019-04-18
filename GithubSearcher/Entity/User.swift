@@ -8,6 +8,7 @@
 
 import Foundation
 
+// see: https://developer.github.com/v3/search/#search-users
 public struct User: Codable {
     public let login: String
     public let id: Int
