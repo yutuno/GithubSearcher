@@ -392,20 +392,25 @@
 				TargetAttributes = {
 					D1BB91AB2267A9050042B2DD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					D1BB91C22267A9070042B2DD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = D1BB91AB2267A9050042B2DD;
 					};
 					D1BB91CD2267A9070042B2DD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = D1BB91AB2267A9050042B2DD;
 					};
 					D1DF8713226826BC009E99F3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					D1DF871B226826BC009E99F3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = D1BB91AB2267A9050042B2DD;
 					};
 				};
@@ -697,7 +702,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubSearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -716,7 +721,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubSearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -736,7 +741,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubSearcherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubSearcher.app/GithubSearcher";
 			};
@@ -757,7 +762,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubSearcherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubSearcher.app/GithubSearcher";
 			};
@@ -777,7 +782,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubSearcherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GithubSearcher;
 			};
@@ -797,7 +802,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubSearcherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GithubSearcher;
 			};
@@ -824,7 +829,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.Github;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -852,7 +857,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.Github;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -873,7 +878,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubSearcher.app/GithubSearcher";
 			};
@@ -893,7 +898,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuto.GithubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubSearcher.app/GithubSearcher";
 			};
